@@ -1,0 +1,19 @@
+header {
+  nav {
+
+    .container-fluid {
+      background-color: #003638;
+      box-shadow: 0 0 1rem $text-color;
+    }
+
+    .navbar-nav {
+      gap: 3rem;
+    }
+
+    .nav-link {
+      color: $text-color;
+    }
+  }
+
+
+}

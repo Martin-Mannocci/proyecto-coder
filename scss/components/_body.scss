@@ -1,0 +1,36 @@
+.shared {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-format {
+    width: 20rem;
+    padding: 0%;
+    border-radius: 0 15px;
+    margin: 0.5%;
+    box-shadow: 2px 2px 2px $text-color;
+    justify-content: center;
+    transition: all 1s;
+
+    &:hover {
+        cursor: zoom-in;
+        transform: translate(30rem, 0px) scale(2);
+    }
+
+
+}
+
+
+
+.nosotros {
+
+    .consultar {
+        color: #f3f2c9a8;
+        text-decoration: none;
+
+        &:hover {
+            color: red;
+            cursor: pointer;
+        }
+    }
+}

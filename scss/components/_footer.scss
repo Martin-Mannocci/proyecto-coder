@@ -1,0 +1,28 @@
+.media {
+    background-image: url(../../images/paw.png);
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    .mapa {
+        float: left;
+        border-width: 20px;
+        border-radius: 20px;
+        margin-bottom: 2%;
+    }
+
+    .logo-redes {
+        width: 6rem;
+        margin-top: 3rem;
+        transition: all 0.5s;
+        opacity: 0.5;
+
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1.0;
+        }
+    }
+
+}

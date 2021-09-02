@@ -1,0 +1,148 @@
+/* mobile */
+
+@media only screen and (max-width: 576px) {
+
+
+    .navbar-nav {
+        gap: 0
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .historia img {
+        display: none;
+
+    }
+
+    .historia {
+        background-image: url(../../images/1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    .historia p {
+        background-color: rgba(216, 208, 208, 0.5);
+        border-radius: 2rem;
+        text-shadow: 1px 3px 5px rgb(10, 7, 7);
+        margin-bottom: 0;
+    }
+
+    .nosotros img {
+        display: none;
+    }
+
+    .nosotros {
+        background-image: url(../../images/2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .nosotros p {
+        background-color: rgba(184, 175, 175, 0.5);
+        border-radius: 2rem;
+        text-shadow: 1px 3px 2px rgb(0, 0, 0);
+        margin-bottom: 0;
+
+    }
+
+    a .logo-redes {
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    .mapa {
+        width: 30%;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+
+
+}
+
+/*tablet*/
+@media only screen and (min-width: 577px) and (max-width:960px) {
+
+
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .navbar-nav {
+        gap: 0rem
+    }
+
+    .historia img {
+        display: none;
+
+    }
+
+    .historia {
+        background-image: url(../../images/1.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    .historia p {
+        background-color: rgba(216, 208, 208, 0.5);
+        border-radius: 2rem;
+        text-shadow: 1px 3px 5px rgb(10, 7, 7);
+        margin-bottom: 0;
+
+    }
+
+    .nosotros img {
+        display: none;
+    }
+
+    .nosotros {
+        background-image: url(../../images/2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .nosotros p {
+        background-color: rgba(184, 175, 175, 0.5);
+        border-radius: 2rem;
+        text-shadow: 1px 3px 2px rgb(0, 0, 0);
+        margin-bottom: 0;
+
+
+    }
+
+    a .logo-redes {
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    .mapa {
+        width: 30%;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
+    }
+
+
+}

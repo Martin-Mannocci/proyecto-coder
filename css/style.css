@@ -86,7 +86,7 @@ header nav .nav-link {
 }
 
 .media {
-  background-image: url(../../images/paw.png);
+  background-image: url(../images/paw.png);
   background-position: center;
   background-repeat: repeat;
   display: flex;
@@ -129,7 +129,7 @@ header nav .nav-link {
   }
 
   .historia {
-    background-image: url(../../images/1.jpg);
+    background-image: url(../images/1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -150,7 +150,7 @@ header nav .nav-link {
   }
 
   .nosotros {
-    background-image: url(../../images/2.jpg);
+    background-image: url(../images/2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -192,7 +192,7 @@ header nav .nav-link {
   }
 
   .historia {
-    background-image: url(../../images/1.jpg);
+    background-image: url(../images/1.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 2rem;
@@ -212,7 +212,7 @@ header nav .nav-link {
   }
 
   .nosotros {
-    background-image: url(../../images/2.jpg);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

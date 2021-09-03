@@ -23,9 +23,8 @@ h2 {
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed";
   justify-content: center;
-  padding: 1rem 2rem;
 }
 
 p {
@@ -129,13 +128,13 @@ header nav .nav-link {
   }
 
   .historia {
-    background-image: url(../images/1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    background-image: url(../images/1.jpg);
   }
 
   .historia p {
@@ -150,13 +149,13 @@ header nav .nav-link {
   }
 
   .nosotros {
-    background-image: url(../images/2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    background-image: url(../images/2.jpg);
   }
 
   .nosotros p {
@@ -192,12 +191,13 @@ header nav .nav-link {
   }
 
   .historia {
-    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    background-image: url(../images/1.jpg);
   }
 
   .historia p {
@@ -212,13 +212,13 @@ header nav .nav-link {
   }
 
   .nosotros {
-    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    background-image: url(../images/2.jpg);
   }
 
   .nosotros p {

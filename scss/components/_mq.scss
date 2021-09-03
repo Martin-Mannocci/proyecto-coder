@@ -17,13 +17,7 @@
     }
 
     .historia {
-        background-image: url(../images/1.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 2rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        @include mq-values (url(../images/1.jpg))
 
     }
 
@@ -39,13 +33,7 @@
     }
 
     .nosotros {
-        background-image: url(../images/2.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 2rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+   @include mq-values(url(../images/2.jpg))
     }
 
     .nosotros p {
@@ -91,12 +79,7 @@
     }
 
     .historia {
-        background-image: url(../images/1.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 2rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        @include mq-values (url(../images/1.jpg))
 
     }
 
@@ -113,13 +96,7 @@
     }
 
     .nosotros {
-        background-image: url();
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border-radius: 2rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        @include mq-values(url(../images/2.jpg))
     }
 
     .nosotros p {

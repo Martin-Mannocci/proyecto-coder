@@ -38,7 +38,7 @@ h1 {
   justify-content: center;
   margin-bottom: 3rem;
   font-family: "MonteCarlo", cursive;
-  font-size: 4rem;
+  font-size: 5rem;
   text-decoration: underline;
   color: #f3f2c9c2;
   text-shadow: 1px 2px 5px #9b1414;
@@ -73,6 +73,7 @@ header nav .nav-link {
 .img-format:hover {
   cursor: zoom-in;
   transform: translate(30rem, 0px) scale(2);
+  z-index: 4;
 }
 
 .nosotros .consultar {
@@ -82,6 +83,11 @@ header nav .nav-link {
 .nosotros .consultar:hover {
   color: red;
   cursor: pointer;
+}
+
+.p-width {
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
 .media {
@@ -121,7 +127,7 @@ header nav .nav-link {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
 
   .historia img {
@@ -140,9 +146,9 @@ header nav .nav-link {
   }
 
   .historia p {
-    background-color: rgba(216, 208, 208, 0.5);
+    background-color: rgba(184, 175, 175, 0.5);
     border-radius: 2rem;
-    text-shadow: 1px 3px 5px #0a0707;
+    text-shadow: 1px 3px 2px black;
     margin-bottom: 0;
   }
 
@@ -204,9 +210,9 @@ header nav .nav-link {
   }
 
   .historia p {
-    background-color: rgba(216, 208, 208, 0.5);
+    background-color: rgba(184, 175, 175, 0.5);
     border-radius: 2rem;
-    text-shadow: 1px 3px 5px #0a0707;
+    text-shadow: 1px 3px 2px black;
     margin-bottom: 0;
   }
 

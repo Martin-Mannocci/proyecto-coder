@@ -29,10 +29,10 @@ h2 {
     color: #adad51;
     font-weight: bold;
     text-align: center;
-    text-decoration: map-get($h2 , decoration);
-    font-family: map-get($h2 , font );
+    text-decoration: map-get($h2, decoration);
+    font-family: map-get($h2, font);
     justify-content: center;
-    padding: map-get($h2 , pad)
+    padding: map-get($h2, pad)
 }
 
 p {
@@ -51,4 +51,4 @@ h1 {
     color: #f3f2c9c2;
     text-shadow: 1px 2px 5px #9b1414;
     margin-top: 3rem;
-  }
+}

@@ -49,6 +49,10 @@ header nav .container-fluid {
   background-color: #003638;
   box-shadow: 0 0 1rem #F3F2C9;
 }
+header nav .container-fluid .navbar-brand {
+  border-radius: 50%;
+  width: 32px;
+}
 header nav .navbar-nav {
   gap: 3rem;
 }
@@ -59,6 +63,7 @@ header nav .nav-link {
 .shared {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .img-format {
@@ -145,9 +150,12 @@ header nav .nav-link {
     background: rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5);
   }
 
-  .historia p {
+  .mq-bg {
     background-color: rgba(184, 175, 175, 0.5);
     border-radius: 2rem;
+  }
+
+  .historia p {
     text-shadow: 1px 3px 2px black;
     margin-bottom: 0;
   }
@@ -167,8 +175,6 @@ header nav .nav-link {
   }
 
   .nosotros p {
-    background-color: rgba(184, 175, 175, 0.5);
-    border-radius: 2rem;
     text-shadow: 1px 3px 2px black;
     margin-bottom: 0;
   }
@@ -209,9 +215,12 @@ header nav .nav-link {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../images/1.jpg);
   }
 
-  .historia p {
+  .mq-bg {
     background-color: rgba(184, 175, 175, 0.5);
     border-radius: 2rem;
+  }
+
+  .historia p {
     text-shadow: 1px 3px 2px black;
     margin-bottom: 0;
   }
@@ -231,8 +240,6 @@ header nav .nav-link {
   }
 
   .nosotros p {
-    background-color: rgba(184, 175, 175, 0.5);
-    border-radius: 2rem;
     text-shadow: 1px 3px 2px black;
     margin-bottom: 0;
   }

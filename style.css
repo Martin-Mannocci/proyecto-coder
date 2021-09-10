@@ -271,9 +271,9 @@ header nav .nav-link {
     width: 40rem;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .img-car {
@@ -282,11 +282,6 @@ header nav .nav-link {
 
   .carousel-inner {
     width: 30rem;
-  }
-}
-@media only screen and (max-width: 370px) {
-  h1 {
-    font-size: 2.5rem;
   }
 }
 .img-car {

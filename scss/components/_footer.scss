@@ -5,14 +5,18 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
 
     .mapa {
-        float: left;
+        
         border-width: 20px;
         border-radius: 20px;
         margin-bottom: 2%;
     }
-
+.logo-redes-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50rem;
     .logo-redes {
         width: 6rem;
         margin-top: 3rem;
@@ -24,5 +28,5 @@
             opacity: 1.0;
         }
     }
-
+}
 }

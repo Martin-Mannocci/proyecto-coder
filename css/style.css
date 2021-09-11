@@ -102,20 +102,25 @@ header nav .nav-link {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .media .mapa {
-  float: left;
   border-width: 20px;
   border-radius: 20px;
   margin-bottom: 2%;
 }
-.media .logo-redes {
+.media .logo-redes-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50rem;
+}
+.media .logo-redes-container .logo-redes {
   width: 6rem;
   margin-top: 3rem;
   transition: all 0.5s;
   opacity: 0.5;
 }
-.media .logo-redes:hover {
+.media .logo-redes-container .logo-redes:hover {
   transform: scale(1.1);
   opacity: 1;
 }
@@ -185,7 +190,7 @@ header nav .nav-link {
   }
 
   .mapa {
-    width: 30%;
+    width: 50%;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
   }
@@ -258,7 +263,7 @@ header nav .nav-link {
   }
 
   .mapa {
-    width: 30%;
+    width: 40%;
     margin-top: 0.7rem;
     margin-bottom: 0.7rem;
   }

@@ -78,7 +78,7 @@ header nav .nav-link {
 }
 .img-format:hover {
   cursor: zoom-in;
-  transform: translate(30rem, 0px) scale(2);
+  transform: translate(10rem, 0px) scale(1.5);
   z-index: 4;
 }
 

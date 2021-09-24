@@ -277,6 +277,11 @@ header nav .nav-link {
     width: 40rem;
   }
 }
+@media only screen and (min-width: 960px) and (max-width: 1366px) {
+  .img-car {
+    width: 55rem;
+  }
+}
 @media only screen and (max-width: 500px) {
   h1 {
     font-size: 2rem;
@@ -292,15 +297,6 @@ header nav .nav-link {
 
   .text-light {
     font-size: 0.8rem;
-  }
-}
-@media only screen and (max-width: 370px) {
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  .text-light {
-    font-size: 0.7rem;
   }
 }
 .img-car {
